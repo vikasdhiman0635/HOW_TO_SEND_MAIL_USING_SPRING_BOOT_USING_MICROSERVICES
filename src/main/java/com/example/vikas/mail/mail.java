@@ -27,7 +27,7 @@ public class mail
 	    {
 	        public void prepare(MimeMessage mimeMessage) throws Exception 
 	        {
-	            mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress("<SEND MAIL ID>"));
+	            mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress("<XXXXXXXSEND MAIL IDXXXXXXXX>"));
 	            mimeMessage.setSubject("ENTER YOUR SUBJECT");
 	             
 	            MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
